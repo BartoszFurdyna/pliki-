@@ -1,0 +1,54 @@
+.tytul
+{
+    float: top;
+    width: 98%;
+    font-size: 70px;
+    background-color:gray;
+    text-align: center;
+    color:peru;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.strona
+{
+    float: right;
+    width: 987px;
+    height: 460px;
+    background-color:gray;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+
+.menu
+{
+    float: left;
+    width: 150px;
+    background-color: gray;
+    font-size: 15px;
+    color: maroon;
+    text-align: center;
+    margin: 10px;
+    height: 460px;
+    margin-right: 0px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.menu2
+{
+    width: 150px;
+    float: left;
+    height: 460px;
+    margin-top: 10px;
+    background-color: gray;
+    border-radius: 0px 10px 10px 0px;
+}
+
+body
+{
+    background-color: #383838;
+}

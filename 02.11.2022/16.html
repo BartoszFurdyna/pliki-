@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        var x = 0;
+        var suma = 0;
+        for(i=1;i<=10;i++)
+        {
+            x = Math.floor(Math.random()*(100-50)+50);
+            suma += x;
+        }
+
+        document.write("suma wynosi: "+suma+"<br>");
+
+        suma /= 10;
+        document.write("średnia wynosi: "+suma);
+    </script>
+</body>
+</html>

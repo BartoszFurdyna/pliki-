@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        var a = Number(prompt("podaj liczbe"));
+        var n = 5;
+        var i = 1
+        var suma=a;
+
+        do
+        {
+            suma**= 2;
+            document.write(suma+"<br>");
+            i++;
+        }
+        while(i<=n)
+
+        i = 1;
+        suma = a;
+        document.write("<br>");
+        while(i<=n)
+        {
+            suma**= 2;
+            document.write(suma+"<br>");
+            i++;
+        }
+        
+        suma =a;
+        document.write("<br>");
+        for(i=1;i<=n;i++)
+        {
+            suma **= 2;
+            document.write(suma+"<br>");
+        }
+    </script>
+</body>
+</html>

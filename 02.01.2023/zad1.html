@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const podaj_imie = () =>
+        {
+            var imie = prompt("Jak masz na imie?")
+        
+            if(imie == null || imie == " "){
+                document.write("Miło że jesteś z nami")
+            }
+            else{
+                document.write(`Miło że jesteś z nami ${imie}`)
+            }
+            return imie;
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="kliknij" onclick="podaj_imie()">
+</body>
+</html>

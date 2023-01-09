@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        var x = Number(prompt("podaj liczbe"));
+        var y = Number(prompt("podaj liczbe"));
+        var suma = 0;
+        var z = Number(prompt("podaj dzialanie (1.dodawanie|2.odejmowanie|3.mnożenie|4.dzielenie"));
+
+        switch(z)
+        {
+            case 1:
+                suma = x+z;
+                break;
+            case 2:
+                if(x>=y)
+                {
+                    suma = x-y;
+                }
+                else
+                {
+                    suma = y-x;
+                }
+                break;
+            case 3:
+                suma = x*y;
+                break;
+            case 4:
+            if(x>=y)
+                {
+                    if(y!=0)
+                    {
+                        suma = x/y;
+                    }
+                }
+                else
+                {
+                    if(x!=0)
+                    {
+                        suma = y/x;
+                    }
+                }
+                
+        }
+
+        document.write(suma);
+    </script>
+</body>
+</html>

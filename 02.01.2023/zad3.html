@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        table{
+            position: relative;
+            left: 250px;
+        }
+        img{
+            width: 150px;
+            height: 100px;
+            padding: 10px;
+        }
+    </style>
+    <script>
+        const papuga = () =>{
+            document.getElementById("wynik").innerHTML = "Papuga"
+            document.getElementById("tresc").innerHTML = "Papużko, papużko,<br> Powiedz mi coś na uzsko"
+        }
+
+        const zyrafa = () =>{
+            document.getElementById("wynik").innerHTML = "Żyrafa"
+            document.getElementById("tresc").innerHTML = "Żyrafa, Żyrada"
+        }
+        const krokodyl = () =>{
+            document.getElementById("wynik").innerHTML = "Krokodyl"
+            document.getElementById("tresc").innerHTML = "Krokodyl, Krokodyl"
+        }
+        const zebra = () =>{
+            document.getElementById("wynik").innerHTML = "Zebra"
+            document.getElementById("tresc").innerHTML = "Zebra, zebra"
+        }
+        const wilk = () =>{
+            document.getElementById("wynik").innerHTML = "wilk"
+            document.getElementById("tresc").innerHTML = "wilk, wilk"
+        }
+    </script>
+</head>
+<body>
+    <table id="dane" style="background-color: lightgreen;">
+        <tr>
+            <td><img src="papuga.png" id="papuga" onclick="papuga()"></td>
+            <td><img src="zyrafa.png" id="zyrafa" onclick="zyrafa()"></td>
+            <td><img src="krokodyl.png" id="krokodyl" onclick="krokodyl()"></td>
+            <td><img src="zebra.png" id="zebra" onclick="zebra()"></td>
+            <td><img src="wilk.png" id="wilk" onclick="wilk()"></td>
+        </tr>
+    </table>
+    <div id="wynik" style="width: 852px; position: relative; left: 250px; background-color: lightseagreen; font-size: 20px; color: white; padding: 10px;"></div>
+    <div id="tresc" style="width: 852px; position: relative; left: 250px; background-color: lightskyblue; font-size: 15px; padding: 10px;"></div>
+</body>
+</html>

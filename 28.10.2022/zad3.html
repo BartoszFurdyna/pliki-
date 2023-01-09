@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        var a = 15;
+        var suma = 0;
+        for(i=a;i>=1;i--)
+        {
+            suma+=a;
+            a--;
+        }
+        suma *= 2;
+        document.write("waga wynosi: "+suma);
+        
+        document.write("<br>");
+        document.write("<br>");
+        a = 15;
+        suma = 0;
+        i = a;
+        while(i>=1)
+        {
+            suma+=a;
+            a--;
+            i--;
+        }
+        suma *= 2;
+        document.write("waga wynosi: "+suma);
+
+        document.write("<br>");
+        document.write("<br>");
+        a = 15;
+        suma = 0;
+        i = a;
+        do
+        {
+            suma+=a;
+            a--;
+            i--;
+        }
+        while(i>=1)
+    </script>
+</body>
+</html>

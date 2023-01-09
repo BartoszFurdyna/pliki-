@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        var a = 10;
+        var suma = 0;
+        for(i=a;i>=1;i--)
+        {
+            suma+= a*a;
+            a--;
+        }
+        document.write("ilość cegieł to: "+suma);
+
+        document.write("<br>");
+        a =10;
+        i=a;
+        suma = 0;
+        while(i>=1)
+        {
+            suma+= a*a;
+            a--;
+            i--;
+        }
+        document.write("ilość cegieł to: "+suma);
+
+        document.write("<br>");
+        a = 10;
+        i=a;
+        suma = 0;
+        do
+        {
+            suma+= a*a;
+            a--;
+            i--;
+        }
+        while(i>=1)
+        document.write("ilość cegieł to: "+suma);
+    </script>
+</body>
+</html>

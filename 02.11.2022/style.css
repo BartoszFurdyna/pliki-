@@ -1,0 +1,15 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,9,121,1) 19%, rgba(73,13,147,1) 59%, rgba(150,46,187,1) 100%);
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    font-family: Comic Sans MS;
+    animation: color-change 2s infinite;
+}
+  
+@keyframes color-change {
+  0% { color: rgb(0, 255, 21); }
+  50% { color: rgb(255, 0, 0); }
+  100% { color: rgb(0, 255, 21); }
+}
